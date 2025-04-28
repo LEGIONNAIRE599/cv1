@@ -1,0 +1,29 @@
+.app-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police moderne */
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9; /* Gris très clair */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease; /* Transition douce pour les changements */
+}
+
+section {
+  background-color: #fff;
+  margin-bottom: 30px; /* Plus d'espace entre les sections */
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Ombre plus douce */
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px; /* Bords arrondis */
+}
+
+h2 {
+  color: #2c3e50; /* Gris foncé bleuté pour les titres */
+  border-bottom: 3px solid #3498db; /* Bleu plus vif pour la ligne */
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  font-size: 24px; /* Taille de police plus grande */
+}

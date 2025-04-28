@@ -1,0 +1,35 @@
+.skills-category {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .skills-category:last-child {
+    border-bottom: none;
+  }
+  
+  .skills-category h3 {
+    margin-top: 0;
+    color: #3498db;
+    font-size: 20px;
+  }
+  
+  .skills-category p {
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
+    gap: 10px; /* Espacement entre les compétences */
+    margin-top: 10px;
+  }
+  
+  .skill-item {
+    background-color: #e7f3ff; /* Bleu très clair */
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
